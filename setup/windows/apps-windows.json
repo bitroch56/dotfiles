@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "name": "Web et communication",
+      "apps": [
+        { "name": "Firefox", "id": "Mozilla.Firefox", "logo": "https://cdn.simpleicons.org/firefox" },
+        { "name": "Spotify", "id": "Spotify.Spotify", "logo": "https://cdn.simpleicons.org/spotify" },
+        { "name": "Deezer", "id": "Deezer.Deezer", "logo": "https://cdn.simpleicons.org/deezer" },
+        { "name": "Discord", "id": "Discord.Discord", "logo": "https://cdn.simpleicons.org/discord" },
+        { "name": "NordVPN", "id": "NordSecurity.NordVPN", "logo": "https://cdn.simpleicons.org/nordvpn" }
+      ]
+    },
+    {
+      "name": "Jeux et streaming",
+      "apps": [
+        { "name": "Steam", "id": "Valve.Steam", "logo": "https://cdn.simpleicons.org/steam" },
+        { "name": "OBS Studio", "id": "OBSProject.OBSStudio", "logo": "https://cdn.simpleicons.org/obsstudio" },
+        { "name": "Sunshine (hôte de streaming)", "id": "LizardByte.Sunshine", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/sun-fill.svg" },
+        { "name": "Moonlight Game Streaming Client", "id": "MoonlightGameStreamingProject.Moonlight", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/moon-stars-fill.svg" }
+      ]
+    },
+    {
+      "name": "Développement et virtualisation",
+      "apps": [
+        { "name": "Visual Studio Code", "id": "Microsoft.VisualStudioCode", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/code-slash.svg" },
+        { "name": "GitHub CLI", "id": "GitHub.cli", "logo": "https://cdn.simpleicons.org/github" },
+        { "name": "GitHub Desktop", "id": "GitHub.GitHubDesktop", "logo": "https://cdn.simpleicons.org/github" },
+        { "name": "Git for Windows", "id": "Git.Git", "logo": "https://cdn.simpleicons.org/git" },
+        { "name": "Windows Terminal", "id": "Microsoft.WindowsTerminal", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/terminal-fill.svg" },
+        { "name": "PowerToys", "id": "Microsoft.PowerToys", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/gear-wide-connected.svg" },
+        { "name": "Windows Subsystem for Linux", "id": "Microsoft.WSL", "logo": "https://cdn.simpleicons.org/linux" },
+        { "name": "Docker Desktop", "id": "Docker.DockerDesktop", "logo": "https://cdn.simpleicons.org/docker" },
+        { "name": "Python 3.13", "id": "Python.Python.3.13", "logo": "https://cdn.simpleicons.org/python" },
+        { "name": "Node.js LTS", "id": "OpenJS.NodeJS.LTS", "logo": "https://cdn.simpleicons.org/nodedotjs" },
+        { "name": "WinSCP", "id": "WinSCP.WinSCP", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/arrow-left-right.svg" },
+        { "name": "Oracle VirtualBox", "id": "Oracle.VirtualBox", "logo": "https://cdn.simpleicons.org/virtualbox" }
+      ]
+    },
+    {
+      "name": "Audio et multimédia",
+      "apps": [
+        { "name": "Spicetify", "id": "Spicetify.Spicetify", "logo": "https://cdn.simpleicons.org/spotify" },
+        { "name": "VirtualDJ", "id": "AtomixProductions.VirtualDJ", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/music-note-beamed.svg" },
+        { "name": "Audacity", "id": "Audacity.Audacity", "logo": "https://cdn.simpleicons.org/audacity" },
+        { "name": "VLC", "id": "VideoLAN.VLC", "logo": "https://cdn.simpleicons.org/vlcmediaplayer" }
+      ]
+    },
+    {
+      "name": "Cybersécurité défensive",
+      "apps": [
+        { "name": "Wireshark", "id": "WiresharkFoundation.Wireshark", "logo": "https://cdn.simpleicons.org/wireshark" },
+        { "name": "Microsoft Sysinternals Suite", "id": "Microsoft.Sysinternals.Suite", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/wrench-adjustable-circle.svg" }
+      ]
+    },
+    {
+      "name": "IA locale",
+      "apps": [
+        { "name": "LM Studio", "id": "ElementLabs.LMStudio", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cpu-fill.svg" }
+      ]
+    },
+    {
+      "name": "Utilitaires et matériel",
+      "apps": [
+        { "name": "7-Zip", "id": "7zip.7zip", "logo": "https://cdn.simpleicons.org/7zip" },
+        { "name": "HWiNFO", "id": "REALiX.HWiNFO", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cpu-fill.svg" },
+        { "name": "SignalRGB", "id": "WhirlwindFX.SignalRgb", "logo": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lightbulb-fill.svg" }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "category": "Jeux",
+      "name": "Riot Client",
+      "url": "https://www.riotgames.com/en/download",
+      "reason": "WinGet ne propose pas de paquet Riot Client générique ; ses entrées disponibles ciblent des jeux et des régions spécifiques."
+    },
+    {
+      "category": "Broderie",
+      "name": "Hatch Embroidery (Wilcom)",
+      "url": "https://wilcom.com/",
+      "reason": "Installation depuis le compte Wilcom ; licence ou compte requis."
+    },
+    {
+      "category": "Audio",
+      "name": "Ableton Live",
+      "url": "https://www.ableton.com/live/",
+      "reason": "Installer depuis Ableton l'édition correspondant à la licence souhaitée."
+    },
+    {
+      "category": "Cybersécurité défensive",
+      "name": "Windows Sandbox",
+      "url": "https://learn.microsoft.com/windows/security/application-security/application-isolation/windows-sandbox/",
+      "reason": "Fonctionnalité Windows à activer manuellement ; nécessite une édition compatible, la virtualisation et peut demander un redémarrage."
+    },
+    {
+      "category": "IA locale",
+      "name": "AnythingLLM Desktop",
+      "url": "https://docs.anythingllm.com/installation-desktop/windows",
+      "reason": "Interface pour créer des agents et espaces de travail avec un moteur local intégré. Installer pour l'utilisateur courant et choisir l'installeur ARM64 pour la Surface Snapdragon ou x64 pour le PC Radeon."
+    },
+    {
+      "category": "IA locale",
+      "name": "AMD Software: Adrenalin Edition",
+      "url": "https://www.amd.com/en/support/download/drivers.html",
+      "reason": "Optionnel : pilotes et logiciel AMD pour le PC avec Radeon RX 7900 XTX uniquement ; choisir le modèle exact sur le site AMD. Ne pas installer sur la Surface Snapdragon."
+    }
+  ]
+}
