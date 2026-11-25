@@ -2,11 +2,22 @@
 
 Installation reproductible de mes applications Windows, distributions WSL et outils de cybersécurité défensive.
 
+## Installation avec interface graphique
+
+Sur Windows, double-clique sur **[Installer.cmd](Installer.cmd)** à la racine du dépôt. Coche les applications souhaitées, puis clique sur **Installer la sélection**. La fenêtre affiche l'état de chaque application ou étape (`En attente`, `En cours`, `Fait`, `Échoué`) et un journal détaillé. Les installations manuelles sont accessibles par le lien en haut de la fenêtre.
+
+Les applications Windows sont sélectionnées par défaut. Les étapes WSL sont facultatives et décochées au départ. Pour installer WSL, lance **Installer.cmd en tant qu'administrateur**. Si l'activation de WSL demande un redémarrage, la fenêtre affiche `À reprendre` : redémarre Windows et relance l'installateur. Ouvre ensuite Ubuntu et Kali une première fois pour créer leur utilisateur Linux avant de sélectionner les outils défensifs. Le bouton d'arrêt termine l'étape en cours, puis ignore les suivantes.
+
+L'interface utilise Windows PowerShell et WinForms, sans dépendance supplémentaire. WinGet (App Installer) est nécessaire pour les applications Windows. Les scripts PowerShell ci-dessous restent disponibles pour une installation en ligne de commande.
+
 ## Structure
 
 ```text
 .
+|-- Installer.cmd
 |-- setup/
+|   |-- Installer-Gui.ps1
+|   |-- Run-Installer.ps1
 |   |-- windows/
 |   |   |-- apps-windows.json
 |   |   |-- Export-AppCatalogue.ps1
@@ -52,7 +63,7 @@ Ces scripts préparent les deux distributions sous WSL 2. WSL utilise une VM lé
    powershell -NoProfile -ExecutionPolicy Bypass -File .\setup\wsl\Install-WSL-Distros.ps1
    ```
 
-   Si WSL n'est pas encore activé, le script installe ses composants et te demande de redémarrer Windows. Relance-le après le redémarrage pour installer Ubuntu et Kali.
+   Si WSL n'est pas encore activé, le script installe ses composants et te demande de redémarrer Windows (code de sortie `10`). Relance-le après le redémarrage pour installer Ubuntu et Kali.
 2. Ouvre chaque distribution une première fois et crée son utilisateur Linux :
 
    ```powershell

@@ -23,7 +23,8 @@ if ($statusExitCode -ne 0) {
     }
 
     Write-Host 'Restart Windows, then run this script again to install Ubuntu and Kali.'
-    exit 0
+    # Code distinct : l'interface ne doit pas afficher « terminé » avant le redémarrage.
+    exit 10
 }
 
 & wsl.exe --update
